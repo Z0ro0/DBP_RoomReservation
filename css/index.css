@@ -72,18 +72,18 @@ body{
     place-items: center;
 }
 .img-title{
-    font-size: 80%;
+    font-size: 100%;
 }
 #library-img{
-    width: 50%;
+    width: 60%;
     border-radius: 3%;
 }
 #coworking-img{
-    width: 50%;
+    width: 60%;
     border-radius: 3%;
 }
 #cafe-img{
-    width: 50%;
+    width: 60%;
     border-radius: 3%;
 }
 .reservation-btn{
