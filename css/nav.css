@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'NotoSerifKR';
+    color: #3A3A3A;
+}
+
+#header {
+    background-color: #E1ECC8;
+    font-size: 80%;
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    height: 49px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-rightitem{
+    width: 30%;
+    margin: auto 0;
+}
+#menu-icon{
+    margin-left: 2%;
+    height: 49px;
+    opacity: 85%;
+}
+#nav-item1{
+    margin-right: 2%;
+    text-decoration: none; 
+    color: #3A3A3A;
+}
+#nav-item2{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none; 
+    color: #3A3A3A;
+}
+#nav-item3{
+    margin-left: 2%;
+    text-decoration: none; 
+    color: #3A3A3A;
+}
