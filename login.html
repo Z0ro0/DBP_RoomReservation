@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자습실 예약</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
@@ -21,6 +22,16 @@
         </div>
     </header>
 
+    <div id="login-container">
+        <p class="login-text">로그인</p>
+        <p class="id-text">아이디</p>
+        <input type="text" id="id-input"/>
+        <p class="pw=text">비밀번호</p>
+        <input type="password" id="pw-input"/>
+        <button type="submit" id="login-btn">완료</button>
+        <a href="login.html" class="login-link">로그인</a>
+        <a href="login.html" class="sign-link">회원가입</a>
+    </div>
     <script>
         feather.replace()
     </script>
