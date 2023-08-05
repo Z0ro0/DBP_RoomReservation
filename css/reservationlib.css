@@ -1,0 +1,18 @@
+#reservation-container{
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.container1{
+    display: flex;
+    height: 100px;
+}
+.container2{
+    display: flex;
+}
+.container3{
+    display: flex;
+}
+#seat1, #seat2, #seat3, #seat4, #seat5, #seat6, #seat7, #seat8, #seat9, #seat10, #seat11, #seat12, #seat13, #seat14, #seat15, #seat16, #seat17, #seat18, #seat19{
+    border: solid 1px #A0C49D;
+}
